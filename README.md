@@ -62,6 +62,15 @@ Usage:
 
 ```css
     /* Base */
+    body {
+      /* body styles */
+    }
+    a {
+      /* link styles */
+    }
+    a:hover {
+      /* link hover styles */
+    }
     
     /* Layout */
     
