@@ -9,6 +9,28 @@ The design example that will be used in this workshop can be found here: https:/
 
 ## BEM
 
+* BEM stands for Block Element Modifier
+* Block - represents object on website
+  * Independent, reusable part
+  * Can contain elements and other blocks, and one or more modifiers
+  * Short prefix for namespacing
+  * Latin letters, digits and dashes
+  * No tag names nor IDs
+* Element - component within the block that performs particular function
+  * Only has meaning inside the block, semantically thied to it
+  * Can contain other elements and blocks, and one or more modifiers
+  * Block name + two underscores + element name
+  * Latin letters, digits, dashes and underscores
+  * No tag names nor IDs
+  * Independent from other blocks and elements
+* Modifier - belongs on a block or element
+  * Different state and behaviour than default
+  * Nicely groupable using preprocessors
+  * Block’s/element’s name + two dashes + modifier name
+  * Latin letters, digits, dashes(for spaces) and underscores
+
+
+
 
 ## OOCSS
 
