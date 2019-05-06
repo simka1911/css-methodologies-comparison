@@ -1,0 +1,8 @@
+/* SMACSS styles */
+
+/* Category imports */
+@import "/base.css";
+@import "/layout.css";
+@import "/module.css";
+@import "/state.css";
+@import "/theme.css";
