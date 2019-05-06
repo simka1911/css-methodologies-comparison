@@ -1,8 +1,8 @@
 /* SMACSS styles */
 
 /* Category imports */
-@import "/base.css";
-@import "/layout.css";
-@import "/module.css";
-@import "/state.css";
-@import "/theme.css";
+@import url("base.css");
+@import url("layout.css");
+@import url("module.css");
+@import url("state.css");
+@import url("theme.css");
