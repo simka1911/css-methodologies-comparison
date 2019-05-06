@@ -16,14 +16,17 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* Base */
-    body {
-      /* body styles */
+    body, form {
+      margin: 0;
+      padding: 0;
     }
+    
     a {
-      /* link styles */
+      color: #039;
     }
+    
     a:hover {
-      /* link hover styles */
+      color: #03f;    
     }
 ```    
 * **Layout**
@@ -37,7 +40,15 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* Layout */
+    #header, #article, #footer {
+      width: 960px;
+      margin: auto;
+    }
     
+    #article {
+      border: solid #ccc;
+      border-width: 1px 0 0;
+    } 
 ``` 
 * **Module**
   * Minor components of the page
@@ -50,7 +61,13 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* Module */
-    
+    .module > h2 {
+      padding: 5px;
+    }
+
+    .module span {
+      padding: 5px;
+    }
 ```    
 * **State**
   * Various states possible for each element
@@ -71,7 +88,15 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* State */
+    .tab {
+      background-color: purple;
+      color: white;
+    }
     
+    .is-tab-active {
+      background-color: white;
+      color: black;
+    }    
 ``` 
 * **Theme**
   * Redefining for alternate themes
@@ -84,11 +109,21 @@ The design example that will be used in this workshop can be found [here](https:
 
 ```css
     /* Theme */
+    /* in module.css */
+    .mod {
+      border: 1px solid;
+    }
+    
+    /* in theme.css */
+    .mod {
+      border-color: blue;
+    }
 ```
 
 Useful links:
 * http://smacss.com/
 * https://vanseodesign.com/css/smacss-introduction/
+* https://www.zaraffasoft.com/2016/09/20/organize-your-css-smacss/
 
 ## BEM
 
@@ -119,12 +154,15 @@ Useful links:
     .block {
       /* block styles */
     }
+    
     .block__element {
       /* element styles */
     }
+    
     .block--modifier {
       /* block modifier styles */
     }
+    
     .block__element--modifier {
       /* element modifier styles */
     }
@@ -189,9 +227,11 @@ Useful links:
     #container {
       /* container styles */
     }
+    
     #container .box {
       /* box styles */
     }
+    
     #container .box-header {
       /* box-header styles */
     }
@@ -200,9 +240,11 @@ Useful links:
     .container {
       /* container styles */
     }
+    
     .box {
       /* box styles */
     }
+    
     .box-header {
       /* box-header styles */
     }
