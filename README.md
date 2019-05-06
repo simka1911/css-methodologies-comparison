@@ -32,10 +32,18 @@ The design example that will be used in this workshop can be found [here](https:
 Usage:
 
 ```css
-    .block {}
-    .block__element {}
-    .block--modifier {}
-    .block__element--modifier {}
+    .block {
+      /* block styles */
+    }
+    .block__element {
+      /* element styles */
+    }
+    .block--modifier {
+      /* block modifier styles */
+    }
+    .block__element--modifier {
+      /* element modifier styles */
+    }
 ```
 
 Useful links:
@@ -43,4 +51,82 @@ Useful links:
 * https://css-tricks.com/bem-101/
 
 ## OOCSS
+* OOCSS stands for **Object Oriented CSS**
+* **Separate structure and skin/design**
+  * Define visual features of an element as a separate skin, that can be combined with various objects
+    * Less code, repetition
+  * Structure refers to element’s position and sizing
+    * Width, height, padding, margin, overflow
+  * Skin refers to element’s visual features
+    * Colors, fonts, gradients, shadows
+
+* **Separate container and content**
+  * Content is placed inside container and shouldn’t be dependent of it
+    * Object should look the same, wherever it’s placed
+  * Containers are mostly represented by structure classes
+  * No need to override styles
+
+Usage:
+
+```css
+    /* Separate structure and skin/design */
+    
+    /* Bad example */
+    .buttonSmall {
+      width: 90px;
+      height: 30px;
+      border-color: #ccc;
+      background: #fff;
+    }
+    .buttonLarge {
+      width: 150px;
+      height: 50px;
+      border-color: #ccc;
+      background: #fff;
+    }
+    
+    /* Good example */
+    .buttonSmall {
+      width: 90px;
+      height: 30px;
+    }
+    .buttonLarge {
+      width: 150px;
+      height: 50px;
+    }
+    .buttonSkin {
+      border-color: #ccc;
+      background: #fff;
+    }
+    
+    /* Separate container and content */
+    
+    /* Bad example */
+    #container {
+      /* container styles */
+    }
+    #container .box {
+      /* box styles */
+    }
+    #container .box-header {
+      /* box-header styles */
+    }
+    
+    /* Good example */
+    .container {
+      /* container styles */
+    }
+    .box {
+      /* box styles */
+    }
+    .box-header {
+      /* box-header styles */
+    }
+```
+
+Useful links:
+* https://github.com/stubbornella/oocss/wiki
+* https://github.com/stubbornella/oocss-code-standards
+* https://github.com/stubbornella/oocss-accessibility-guidelines
+* https://www.keycdn.com/blog/oocss
 
