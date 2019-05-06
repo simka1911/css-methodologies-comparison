@@ -16,6 +16,7 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* Base */
+    
     body, form {
       margin: 0;
       padding: 0;
@@ -40,6 +41,7 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* Layout */
+    
     #header, #article, #footer {
       width: 960px;
       margin: auto;
@@ -61,6 +63,7 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* Module */
+    
     .module > h2 {
       padding: 5px;
     }
@@ -88,6 +91,7 @@ The design example that will be used in this workshop can be found [here](https:
     
 ```css
     /* State */
+    
     .tab {
       background-color: purple;
       color: white;
@@ -109,6 +113,7 @@ The design example that will be used in this workshop can be found [here](https:
 
 ```css
     /* Theme */
+    
     /* in module.css */
     .mod {
       border: 1px solid;
@@ -186,13 +191,14 @@ Useful links:
 ```css
     /* Separate structure and skin/design */
     
-    /* Bad example */
+    /* Bad example: */
     .buttonSmall {
       width: 90px;
       height: 30px;
       border-color: #ccc;
       background: #fff;
     }
+    
     .buttonLarge {
       width: 150px;
       height: 50px;
@@ -200,15 +206,17 @@ Useful links:
       background: #fff;
     }
     
-    /* Good example */
+    /* Good example: */
     .buttonSmall {
       width: 90px;
       height: 30px;
     }
+    
     .buttonLarge {
       width: 150px;
       height: 50px;
     }
+    
     .buttonSkin {
       border-color: #ccc;
       background: #fff;
@@ -223,7 +231,7 @@ Useful links:
 ```css
     /* Separate container and content */
     
-    /* Bad example */
+    /* Bad example: */
     #container {
       /* container styles */
     }
@@ -236,7 +244,7 @@ Useful links:
       /* box-header styles */
     }
     
-    /* Good example */
+    /* Good example: */
     .container {
       /* container styles */
     }
