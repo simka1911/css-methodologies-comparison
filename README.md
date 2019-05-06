@@ -38,5 +38,9 @@ Usage:
     .block__element--modifier {}
 ```
 
+Useful links:
+* http://getbem.com/
+* https://css-tricks.com/bem-101/
+
 ## OOCSS
 
