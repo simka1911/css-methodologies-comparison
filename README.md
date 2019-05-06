@@ -14,6 +14,19 @@ The design example that will be used in this workshop can be found [here](https:
     * Descendent selectors, child selectors, etc. are allowed
     * Pseudo-classes are allowed
     
+Usage:
+```css
+    /* Base */
+    body {
+      /* body styles */
+    }
+    a {
+      /* link styles */
+    }
+    a:hover {
+      /* link hover styles */
+    }
+```    
 * **Layout**
   * Major components of the page
     * Header, footer, main section, etc.
@@ -23,6 +36,11 @@ The design example that will be used in this workshop can be found [here](https:
     * Usually l- or layout-
     * Separation from modules and states
     
+Usage:
+```css
+    /* Layout */
+    
+``` 
 * **Module**
   * Minor components of the page
     * Navigation bars, carousels, etc.
@@ -32,6 +50,11 @@ The design example that will be used in this workshop can be found [here](https:
     * Name of the module without prefixes
     * Submodules - name of parent module as prefix with a dash
     
+Usage:
+```css
+    /* Module */
+    
+```    
 * **State**
   * Various states possible for each element
     * active/inactive, hidden/expanded, etc.
@@ -48,7 +71,12 @@ The design example that will be used in this workshop can be found [here](https:
       * CSS Animation
     * Pseudo-classes
     * Media queries
-
+    
+Usage:
+```css
+    /* State */
+    
+``` 
 * **Theme**
   * Redefining for alternate themes
     * How base, layout and modules will look in specific cases
@@ -59,25 +87,7 @@ The design example that will be used in this workshop can be found [here](https:
   * Prefix theme- for specific theme components
 
 Usage:
-
 ```css
-    /* Base */
-    body {
-      /* body styles */
-    }
-    a {
-      /* link styles */
-    }
-    a:hover {
-      /* link hover styles */
-    }
-    
-    /* Layout */
-    
-    /* Module */
-    
-    /* State */
-    
     /* Theme */
 ```
 
@@ -111,7 +121,6 @@ Useful links:
   * Latin letters, digits, dashes(for spaces) and underscores
 
 Usage:
-
 ```css
     .block {
       /* block styles */
@@ -141,15 +150,8 @@ Useful links:
     * Width, height, padding, margin, overflow
   * Skin refers to element’s visual features
     * Colors, fonts, gradients, shadows
-
-* **Separate container and content**
-  * Content is placed inside container and shouldn’t be dependent of it
-    * Object should look the same, wherever it’s placed
-  * Containers are mostly represented by structure classes
-  * No need to override styles
-
+    
 Usage:
-
 ```css
     /* Separate structure and skin/design */
     
@@ -180,7 +182,15 @@ Usage:
       border-color: #ccc;
       background: #fff;
     }
-    
+```
+* **Separate container and content**
+  * Content is placed inside container and shouldn’t be dependent of it
+    * Object should look the same, wherever it’s placed
+  * Containers are mostly represented by structure classes
+  * No need to override styles
+
+Usage:
+```css
     /* Separate container and content */
     
     /* Bad example */
