@@ -14,7 +14,6 @@ The design example that will be used in this workshop can be found [here](https:
     * Descendent selectors, child selectors, etc. are allowed
     * Pseudo-classes are allowed
     
-Usage:
 ```css
     /* Base */
     body {
@@ -36,7 +35,6 @@ Usage:
     * Usually l- or layout-
     * Separation from modules and states
     
-Usage:
 ```css
     /* Layout */
     
@@ -50,7 +48,6 @@ Usage:
     * Name of the module without prefixes
     * Submodules - name of parent module as prefix with a dash
     
-Usage:
 ```css
     /* Module */
     
@@ -72,7 +69,6 @@ Usage:
     * Pseudo-classes
     * Media queries
     
-Usage:
 ```css
     /* State */
     
@@ -86,7 +82,6 @@ Usage:
     * Not a core category, optional
   * Prefix theme- for specific theme components
 
-Usage:
 ```css
     /* Theme */
 ```
@@ -120,7 +115,6 @@ Useful links:
   * Block’s/element’s name + two dashes + modifier name
   * Latin letters, digits, dashes(for spaces) and underscores
 
-Usage:
 ```css
     .block {
       /* block styles */
@@ -151,7 +145,6 @@ Useful links:
   * Skin refers to element’s visual features
     * Colors, fonts, gradients, shadows
     
-Usage:
 ```css
     /* Separate structure and skin/design */
     
@@ -189,7 +182,6 @@ Usage:
   * Containers are mostly represented by structure classes
   * No need to override styles
 
-Usage:
 ```css
     /* Separate container and content */
     
