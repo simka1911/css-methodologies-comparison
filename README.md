@@ -1,6 +1,9 @@
 # CSS Methodologies Comparison Workshop
 The goal is to create a simple component or page using different css methodologies, and that way learn a little bit more about them and explore their pros and cons. A short and simple guideline can be found here for easier and faster implementation.
 
+## Instructions
+Try to replicate the attached design to create parts of the page, or the whole page. Start with one methodology, and then move to others (short reminder and useful links can be found below). Use only one breakpoint (ex. 960px), for mobile and desktop view. Choose your own colors and fonts. For the images, use [placeholders](https://placeholder.com/). There is no need to use icons. While implementing, write down your thoughts, opinions, ideas and what you think are pros and cons of each methodology. Discuss all collected info and try to come up with some conclusions.
+
 ## Design
 The design example that will be used in this workshop can be found [here](https://dribbble.com/shots/1040647-TinyLove-Landing-Page/attachments/126310).
 
