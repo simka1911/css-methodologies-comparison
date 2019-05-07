@@ -1,4 +1,15 @@
-h1 {
-  font-size: 20px;
-  color: black;
+* {
+  box-sizing: border-box;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+input[type=text]:focus {
+  outline: 0;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
 }
