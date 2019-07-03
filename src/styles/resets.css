@@ -1,0 +1,17 @@
+/* Add styles here */
+
+* {
+  box-sizing: border-box;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+input[type=text]:focus {
+  outline: 0;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+}

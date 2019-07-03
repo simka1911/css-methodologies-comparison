@@ -1,0 +1,42 @@
+{
+  "name": "css-methodologies-comparison-master",
+  "version": "1.0.0",
+  "description": "The goal is to create a simple component or page using different css methodologies, and that way learn a little bit more about them and explore their pros and cons. No javascript required.",
+  "private": true,
+  "scripts": {
+    "build": "webpack-dev-server --config webpack.config.js",
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simka1911/css-methodologies-comparison.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass",
+    "smacss",
+    "bem",
+    "oocss",
+    "methodology",
+    "methodologies"
+  ],
+  "author": "Katarina Simic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simka1911/css-methodologies-comparison/issues"
+  },
+  "homepage": "https://github.com/simka1911/css-methodologies-comparison#readme",
+  "devDependencies": {
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "sass": "^1.22.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
