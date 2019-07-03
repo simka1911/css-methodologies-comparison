@@ -7,7 +7,7 @@ Try to replicate the attached design to create parts of the page, or the whole p
 ## Instructions
 Download this project on your computer, open up the terminal, navigate to the root folder of this project and run ```npm install``` command. To start the webpack dev server, just run the script ```npm run start```, and index page will be immediately opened in the browser. From there you can navigate to three different html pages, one for each methodology. All markup, styles and javascript are found in the **src** folder and they are the ones which should be edited. The browser should refresh whenever you save changes in your code. If you make some changes inside the webpack.config.js file, you will need to start the script again.
 **Additional info:** 
-* If you only want to build the project, just run the script ```npm run build```. Then **dist** folder will be created with everything bundled and included. 
+* If you only want to build the project, just run the script ```npm run build```. The **dist** folder will be created with css and javascript bundled and included inside generated html pages. 
 * All .scss and .css files are included in the corresponding .js files. If you need to add more sass or css files, or just want to use css instead of sass and vice versa, create those new files inside **src/styles** folder and just include them (add and/or remove) in wanted javascript files inside **src/scripts** folder.
 
 ## Design
