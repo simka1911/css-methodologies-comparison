@@ -1,0 +1,60 @@
+// variables
+$black-color: black;
+$font: Arial;
+$wrapper-padding: 30px;
+$background-underline: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,255,1) 50%, rgba(255,255,0,1) 100%);
+$transition-duration: 500ms;
+
+.wrapper {
+  padding: $wrapper-padding;
+  font-family: $font;
+  h1 {
+    position: relative;
+    padding-bottom: 5px;
+    &::after {
+      content: '';
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-image: $background-underline;
+    }
+  }
+  ul {
+    list-style: none;
+    padding-left: 20px;
+    li {
+      margin-bottom: 20px;
+      &::before {
+        content: "\25ba";
+        color: $black-color;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+        padding-right: 10px;
+      }
+      &:hover {
+        &::before {
+          color: blue;
+        }
+      }
+      &:first-child:hover {
+        &::before {
+          color: red;
+        }
+      }
+      &:last-child:hover {
+        &::before {
+          color: yellow;
+        }
+      }
+      a {
+        position: relative;
+        text-decoration: none;
+        color: $black-color;
+      }
+    }
+  }
+}
