@@ -1,8 +1,14 @@
 # CSS Methodologies Comparison Workshop
 The goal is to create a simple component or page using different css methodologies, and that way learn a little bit more about them and explore their pros and cons. A short and simple guideline can be found here for easier and faster implementation.
 
-## Instructions
+## Task
 Try to replicate the attached design to create parts of the page, or the whole page. Start with one methodology, and then move to others (short reminder and useful links can be found below). Use only one breakpoint (ex. 960px), for mobile and desktop view. Choose your own colors and fonts. For the images, use [placeholders](https://placeholder.com/). There is no need to use icons. While implementing, write down your thoughts, opinions, ideas and what you think are pros and cons of each methodology. Discuss all collected info and try to come up with some conclusions.
+
+## Instructions
+Download this project on your machine, open up the terminal, navigate to the root folder of this project and run ```npm install``` command. All markup and styles files are found in the **src** folder and they are the ones which should be edited. To start the webpack, just run the script ```npm run start```, and **dist** folder will be created with everything bundled and included. Open html pages in that folder in you browser to see your changes. When adding and changing code in **src** folder, changes will be visible when refreshing your html pages from **dist** folder opened in the browser.
+**Additional info:** 
+* If you want to use webpack dev server, then you should run the script ```npm run build```, and go to http://localhost:9000/webpack-dev-server. In this case **dist** folder with files won't be created. If for some reason you need to use different port, just change it in the webpack.config.js file.
+* All .scss and .css files are included in the corresponding .js files. If you need to add more sass or css files, or just want to use css instead of sass and vice versa, create those new files inside **src/styles** folder and just include them (add and/or remove) in wanted javascript files inside **src/scripts** folder. You'll need to start the script again when making changes inside the webpack.config.js file.
 
 ## Design
 The design example that will be used in this workshop can be found [here](https://dribbble.com/shots/1040647-TinyLove-Landing-Page/attachments/126310).
@@ -266,4 +272,5 @@ Useful links:
 * https://github.com/stubbornella/oocss-code-standards
 * https://github.com/stubbornella/oocss-accessibility-guidelines
 * https://www.keycdn.com/blog/oocss
+* https://sass-lang.com/guide
 
